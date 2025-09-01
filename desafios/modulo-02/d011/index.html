@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Astronauta</title>
+    <style>
+        .imagem {
+            position: relative;
+            display: inline-block;
+        }
+
+        .imagem img {
+            position: absolute;
+            width: 100%;
+            height: auto;
+        }
+
+        .imagem  img:nth-child(1) {
+            z-index: 1;
+            position: static;
+        }
+
+        .imagem img:nth-child(2) {
+            z-index: 2;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="imagem">
+        <img src="imagens/espaco.jpg" alt="fundo">
+        <img src="imagens/astronauta.png" alt="sobreposta">
+    </div>
+</body>
+</html>

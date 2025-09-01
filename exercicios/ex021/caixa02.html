@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <!--
+- Sem valor semântico:
+   <div>	-> block
+   <span>	-> inline
+
+- Com valor semântico:
+  <header>		 -> cabeçalho
+     <nav>	     -> para menus, links, navegação
+
+ <main>			       -> principal
+   <section>		   -> seção
+	 <article>	       -> artigo
+		 <aside>	   -> periférico ao artigo (ex: escritor / autor)
+
+ <footer>	           -> rodapé  -->
+    <style>
+        body {
+            background-color: azure;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            margin: 0px;
+        }
+
+        header {
+            background-color: wheat;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.397);
+            border-radius: 10px;
+        }
+
+        p {
+            text-indent: 10px;
+        }
+
+        h2 {
+            text-indent: 10px;
+        }
+
+        nav {
+            background-color: rgb(104, 103, 103);
+            padding: 2px;
+            text-align: left;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+        
+        main {
+            background-color: white;
+            color: black;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.349);
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(128, 126, 126);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 4px;
+            margin: 0px;
+            text-align: end;
+        }
+
+        footer > p {
+            margin: 0%;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: rgb(32, 34, 173);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body> 
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Corinthians</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aspernatur, molestias id distinctio exercitationem a quisquam tenetur sint obcaecati, possimus sunt iure veniam accusantium tempore? Animi molestias illo aliquid ducimus accusantium qui ipsa corporis praesentium architecto error! Aperiam exercitationem eum vero nam eligendi? Eum ducimus provident quibusdam dolore asperiores et?</p>
+                <aside>
+                    <p>Artigo escrito por Eraldo Albano</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
