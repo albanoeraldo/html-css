@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-        }
+            background-attachment: fixed;
+    
+            background-attachment: scroll;	-> padrão; o fundo rola junto com o conteúdo
+                                fixed;	-> fundo fixo à tela, a medida que o conteúdo rola
+                                           (ótimo combinado com background-size: cover;)
 
+            Shorthand - background:
+
+                Sequência:	color > image > position > / > size > repeat > attachment
+
+            Ex:	background: black url('imagens/wallpaper002.jpg') center center / cover no-repeat fixed;
+            */
+            background: black url('imagens/wallpaper002.jpg') center center / cover no-repeat fixed;
+        }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
@@ -28,7 +40,10 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ipsa in veritatis porro cupiditate voluptate dolorum facilis eligendi tenetur soluta atque minima optio. Laboriosam nostrum placeat eaque maxime modi? Obcaecati dolorum sit natus omnis consequatur consectetur facere, nisi odio, illum non, tenetur aut sequi minus repudiandae enim totam! Totam est autem eos reprehenderit vitae libero dolor, dolores voluptatem veniam sint iusto debitis omnis? Amet, commodi voluptates vero expedita dolores placeat voluptas fugit ullam error voluptatibus non, ut laudantium rerum distinctio optio unde quisquam natus cupiditate repudiandae neque sit dolore dolor quae repellendus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, accusamus hic sapiente debitis temporibus possimus, dolore eveniet dicta officia praesentium consectetur! Temporibus eos atque, amet repudiandae nihil inventore voluptas eveniet, mollitia aspernatur tenetur sequi suscipit. Blanditiis doloribus ad similique fuga, rerum soluta repellat placeat ipsum cum minima qui ea! Iusto.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, accusamus hic sapiente debitis temporibus possimus, dolore eveniet dicta officia praesentium consectetur! Temporibus eos atque, amet repudiandae nihil inventore voluptas eveniet, mollitia aspernatur tenetur sequi suscipit. Blanditiis doloribus ad similique fuga, rerum soluta repellat placeat ipsum cum minima qui ea! Iusto.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, accusamus hic sapiente debitis temporibus possimus, dolore eveniet dicta officia praesentium consectetur! Temporibus eos atque, amet repudiandae nihil inventore voluptas eveniet, mollitia aspernatur tenetur sequi suscipit. Blanditiis doloribus ad similique fuga, rerum soluta repellat placeat ipsum cum minima qui ea! Iusto.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus perspiciatis aspernatur deserunt itaque dolores, esse, et reiciendis repellendus sed ipsam natus. Dolorem vero asperiores error dolore rerum, est voluptatibus voluptate soluta facere possimus! Vitae corrupti magni possimus. Nihil odio aspernatur harum fugiat, facere molestias esse quod illo perspiciatis at hic dicta eligendi molestiae adipisci, dolorum ex doloribus delectus. Quod eos voluptatum nisi impedit doloremque voluptatem dolore totam cumque. Sit quasi corporis hic eaque ex laborum ipsa ipsam minima rem perspiciatis! ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, accusamus hic sapiente debitis temporibus possimus, dolore eveniet dicta officia praesentium consectetur! Temporibus eos atque, amet repudiandae nihil inventore voluptas eveniet, mollitia aspernatur tenetur sequi suscipit. Blanditiis doloribus ad similique fuga, rerum soluta repellat placeat ipsum cum minima qui ea! Iusto.</p>
     </main>
 </body>
 </html>
