@@ -46,4 +46,6 @@ header a {
     font-family: var(--fonte-titulo);
     color: white;
     text-decoration: none;
+    font-size: 1.5em;
 }
+
