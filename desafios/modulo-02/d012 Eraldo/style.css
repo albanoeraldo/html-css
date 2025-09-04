@@ -55,6 +55,16 @@ nav > a:hover {
     text-decoration: underline;
 }
 
+main {
+    background-color: white;
+}
+
+main p {
+    font-family: var(--fonte-poesia);
+    padding: 60px ;
+    font-size: 3em;
+}
+
 #container {
     background-image: url('imagens/background001.jpg');
     background-attachment: fixed;
@@ -65,4 +75,19 @@ nav > a:hover {
     background-image: url('imagens/background002.jpg');
     background-attachment: fixed;
     background-position: right bottom;
+}
+
+div.parte {
+    display: block;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+}
+
+div.transp {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.288);
+    border: 2px solid rgba(0, 0, 0, 0.288);
+    height: 400px;
+    width: 400px; 
 }
