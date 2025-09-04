@@ -29,7 +29,7 @@ body {
 
 div.container {
     background-image: url('imagens/background002.jpg');
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: right bottom;
     background-size: cover;
 }
@@ -81,15 +81,11 @@ div.quadrado {
 }
 
 div#q1 {
-    margin-bottom: 20px;
-}
-
-div#q2 {
     background-color: transparent;
     color: white;
 }
 
-div#q2a {
+div#q2 {
     display: flex;
     background-color: rgba(0, 0, 0, 0.514);
 }
