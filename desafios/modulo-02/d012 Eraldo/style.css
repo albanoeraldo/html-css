@@ -21,6 +21,17 @@
 
 body {
     background-color: white;
+    background-image: url('imagens/background001.jpg');
+    background-attachment: fixed;
+    background-position: left top;
+    height: 100vh;
+}
+
+div.container {
+    background-image: url('imagens/background002.jpg');
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-size: cover;
 }
 
 header {
@@ -55,39 +66,37 @@ nav > a:hover {
     text-decoration: underline;
 }
 
-main {
-    background-color: white;
-}
-
 main p {
     font-family: var(--fonte-poesia);
     padding: 60px ;
-    font-size: 3em;
+    font-size: 5em;
 }
 
-#container {
-    background-image: url('imagens/background001.jpg');
-    background-attachment: fixed;
-    background-position: left top;
-}
-
-#conteudo {
-    background-image: url('imagens/background002.jpg');
-    background-attachment: fixed;
-    background-position: right bottom;
-}
-
-div.parte {
-    display: block;
+div.quadrado {
+    position: relative;
+    display: flex;
     background-color: white;
-    height: 400px;
-    width: 400px;
 }
 
-div.transp {
-    display: block;
-    background-color: rgba(0, 0, 0, 0.288);
-    border: 2px solid rgba(0, 0, 0, 0.288);
-    height: 400px;
-    width: 400px; 
+div#q1 {
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    padding: 15px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
