@@ -21,17 +21,24 @@
 
 body {
     background-color: white;
-    background-image: url('imagens/background001.jpg');
-    background-attachment: fixed;
-    background-position: left top;
-    height: 100vh;
 }
 
-div.container {
+div#container {
+   background-image: url('imagens/background001.jpg');
+    background-attachment: fixed;
+    background-position: right top;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh; 
+}
+
+div#baixo {
     background-image: url('imagens/background002.jpg');
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: right bottom;
-    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
 }
 
 header {
@@ -65,6 +72,7 @@ nav  a {
 nav > a:hover {
     text-decoration: underline;
 }
+
 
 main p {
     font-family: var(--fonte-poesia);
