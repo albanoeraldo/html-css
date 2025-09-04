@@ -26,27 +26,35 @@ body {
 header {
     background-color: black;
     text-align: center;
-    min-height: 150px;
+    min-height: 160px;
     padding: 30px;
 }
 
 header  h1 {
     color: white;
     font-family: var(--fonte-titulo);
-    padding-top: 30px;
-    font-size: 150px;
-    text-transform: uppercase;
+    padding-top: 25px;
+    font-size: 12em;
+    font-variant: small-caps;
 }
 
 header nav {
     color: white;
     font-family: var(--fonte-padrao);
+    padding-bottom: 20px;
 }
 
-header a {
-    font-family: var(--fonte-titulo);
+nav  a {
     color: white;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    
+}
