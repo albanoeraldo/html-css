@@ -68,7 +68,9 @@ nav > a:hover {
 
 main p {
     font-family: var(--fonte-poesia);
-    padding: 60px ;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 60px;
     font-size: 5em;
 }
 
@@ -82,6 +84,15 @@ div#q1 {
     margin-bottom: 20px;
 }
 
+div#q2 {
+    background-color: transparent;
+    color: white;
+}
+
+div#q2a {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.514);
+}
 
 footer {
     background-color: black;
