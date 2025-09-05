@@ -23,24 +23,6 @@ body {
     background-color: white;
 }
 
-div#container {
-   background-image: url('imagens/background001.jpg');
-    background-attachment: fixed;
-    background-position: right top;
-    background-repeat: no-repeat;
-    display: flex;
-    height: 100vh; 
-}
-
-div#baixo {
-    background-image: url('imagens/background002.jpg');
-    background-attachment: fixed;
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    display: flex;
-    height: 100vh;
-}
-
 header {
     background-color: black;
     text-align: center;
@@ -71,31 +53,6 @@ nav  a {
 
 nav > a:hover {
     text-decoration: underline;
-}
-
-
-main p {
-    font-family: var(--fonte-poesia);
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 60px;
-    font-size: 5em;
-}
-
-div.quadrado {
-    position: relative;
-    display: flex;
-    background-color: white;
-}
-
-div#q1 {
-    background-color: transparent;
-    color: white;
-}
-
-div#q2 {
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.514);
 }
 
 footer {
