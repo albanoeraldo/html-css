@@ -55,6 +55,18 @@ nav > a:hover {
     text-decoration: underline;
 }
 
+section {
+    line-height: 2em;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+}
+
+section  p {
+    font-family: var(--fonte-poesia);
+    font-size: 2em;
+}
+
 footer {
     background-color: black;
     color: white;
