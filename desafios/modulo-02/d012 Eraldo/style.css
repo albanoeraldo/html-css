@@ -56,15 +56,45 @@ nav > a:hover {
 }
 
 section {
-    line-height: 2em;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 30px;
+    padding-bottom: 20px;
 }
 
 section  p {
     font-family: var(--fonte-poesia);
-    font-size: 2em;
+    font-size: 4em;
+    letter-spacing: 2px;  
+    word-spacing: 6px;     
+          
+    padding: 50px 30px 50px 30px;
+}
+
+section.imagem {
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#back01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right top ;
+    background-repeat: no-repeat;  
+}
+
+#back02 {
+    background-image: url(imagens/background002.jpg);  
+}
+
+.quadrado {
+    background-color: white;
+    margin: -10px;
+    padding: 10px 0px 20px 20px;
+}
+
+.transparente {
+    max-width: 700px;
+    background: rgba(0,0,0,.55);  /* transparente p/ ver a imagem atrás */
+    color: white;
+    margin: 40px 0px 40px 0px;
+    border-radius: 0px 8px 8px 0px;
 }
 
 footer {
@@ -72,7 +102,9 @@ footer {
     color: white;
     text-align: center;
     font-family: var(--fonte-padrao);
+    font-size: 1.1em;
     padding: 15px;
+    margin: -15px;
 }
 
 footer a {
