@@ -11,10 +11,28 @@
     </style>
 </head>
 <body>
+    <!-- função label para vincular a palavra com o objeto, sempre fazer!  
+    
+    GET (padrão)
+        - Usar quando os dados não forem sensíveis
+            (não usar para senha, cartão de crédito, endereço, CEP, etc.).
+
+        Pode ser compartilhado via link/URL.
+            -Indicado para envio de até 3000 bytes (~3 mil caracteres).
+            - Não usar para envio de fotos ou arquivos grandes.
+
+
+    POST
+        - Usar para dados sensíveis (senha, cartão, endereço, etc.).
+
+        - Ideal quando o envio passar de 3000 bytes.
+        - Os dados não aparecem na URL.
+        - Usado também para upload de arquivos (fotos, documentos, etc.).
+    -->
     <h1>Meu primeiro formulário</h1>
-    <form>
-        <p>Nome: <input type="text" name="nome" id="nome"></p> <!-- Input de texto -->
-        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p> <!-- Input de texto -->
+    <form action="cadastro.php" method="GET" autocomplete="off"> <!-- função action para enviar os dados -->
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p> <!-- Input de texto -->
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p> <!-- Input de texto -->
         <p><input type="submit" value="Enviar"></p> <!-- Input de envio -->
     </form>
 </body>
