@@ -55,6 +55,7 @@ main {
     background-color: white;
     display: flex;
     margin: 15px;
+    height: 90vh;
     border-radius: 10px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.356);
 }
@@ -73,6 +74,7 @@ div > p {
 div#cx0 {
     background-color: rgba(4, 151, 4, 0.288);
     flex: 1 1 500px;
+    border-radius: 10px;
 }
 
 div#cx01 {
@@ -82,7 +84,23 @@ div#cx01 {
 div#cx2 {
     background-color: gold;
     text-align: center;
+    border-radius: 10px;
+    height: 300px;
 }
 
-div#cx2 li{
+div#cx2 > ul {
+    list-style-type: none;
+}
+
+div#cx2 > ul > li {
+    padding-top: 10px;
+    margin: 10px;
+    flex-flow: row nowrap;
+}
+
+div#cx2 > ul > li > a {
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    color: white;
 }

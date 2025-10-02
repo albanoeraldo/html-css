@@ -38,7 +38,7 @@ menu {
 }
 
 menu > ul {
-    list-style-type: nome;
+    list-style-type: none;
 }
 
 menu > ul > li > a {
