@@ -11,3 +11,7 @@ header > h1 {
 header > nav > a {
     width: 90vw;
 }
+
+div#cx2 {
+    flex-flow: row;
+}
