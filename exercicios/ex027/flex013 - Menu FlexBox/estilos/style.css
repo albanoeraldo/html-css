@@ -60,4 +60,18 @@ main {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.356);
+    width: 70vw;
+    justify-self: center;
+    
+}
+
+main > h2 {
+    text-align: center;
+    font-weight: ;
+}
+
+main > p {
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
 }
