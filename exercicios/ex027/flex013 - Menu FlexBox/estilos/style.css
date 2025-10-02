@@ -26,6 +26,7 @@ header {
 
 header > h1 {
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
 }
 
 header > nav {
@@ -69,11 +70,19 @@ div > p {
     text-indent: 20px;
 }
 
-div#cx1 {
+div#cx0 {
     background-color: rgba(4, 151, 4, 0.288);
+    flex: 1 1 500px;
+}
+
+div#cx01 {
+    background-color: brown;
 }
 
 div#cx2 {
-    flex: 0 1 auto;
-    flex-flow: column nowrap;
+    background-color: gold;
+    text-align: center;
+}
+
+div#cx2 li{
 }
