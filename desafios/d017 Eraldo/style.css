@@ -1,11 +1,18 @@
 @charset "UTF-8";
 
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 div.container {
     display: grid;
-    height: 800px;
+    height: 100vh;
+    width: 100vw;
     grid-template-rows: 1fr 50px 5fr 1fr 50px;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 5px;
     text-align: center;
 }
 
@@ -19,6 +26,7 @@ div.container {
     Grid area vem nessa ordem de cima
     */
     grid-area: 1/1/2/5;
+    padding: 10px;
 }
 
 .caixa2 {
@@ -30,6 +38,7 @@ div.container {
     grid-column-end: 5;
     */
     grid-area: 2/1/2/5;
+    padding: 10px;
 }
 
 .caixa3 {
@@ -41,6 +50,7 @@ div.container {
     grid-column-end: 4;
     */
     grid-area: 3/1/5/4;
+    padding: 10px;
 }
 
 .caixa4 {
@@ -52,6 +62,7 @@ div.container {
     grid-column-end: 5;
     */
     grid-area: 3/4/5/5;
+    padding: 10px;
 }
 
 .caixa5 {
@@ -63,4 +74,5 @@ div.container {
     grid-column-end: 5;
     */
     grid-area: 5/1/6/5;
+    padding: 10px;
 }
