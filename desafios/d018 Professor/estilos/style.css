@@ -29,6 +29,9 @@ header {
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position: sticky; /* Deixar o menu grudado */
+  top: 0; /* Deixar o menu grudado */
+  z-index: 1; /* colocar uma camada a cima de todas */
 }
 
 nav#menu ul {
